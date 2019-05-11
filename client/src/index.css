@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.mtop-50 {
+  margin-top: 88px;
+}
+.book-banner, .login-page, .register-page, .user-details, .user-edit, .book-details {
+  margin-top: 145px;
+}
+.hawa{
+  background: green;
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+#emptySpace {
+  height: 80px;
+}
+
+#extraSpace {
+  height: 150px;
+}
+
+.nounderline {
+  text-decoration: none !important;
+  color: black;
+}
+
+.common-title {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: cursive;
+  text-shadow: 2px 2px 5px #aaa;
+  transition: all .5s;
+}
+
+.common-title:first-letter {
+  font-family: cursive;
+  /*font-size: 5rem;*/
+  /*margin-right: 10px;*/
+  /*font-style: normal;*/
+}
+
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px #aaa;
+}
+
+.famous-writers {
+  background: linear-gradient(rgba(250, 250, 250, .8), rgba(250, 250, 250, .9)), url(public/img/header-logo/logo.jpg) center center no-repeat /cover;
+}
+
+.more-option {
+  padding: 6px 45px;
+}
+.active {
+  color: red;
+}
+.ml-auto .p-2 .nounderline:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.ml-auto .p-2 .nounderline {
+  color: #007bff;
+}
+#book-1, #book-2 {
+  height: 600px;
+  width: 600px;
+}
+.card-img-top {
+  width: 350px;
+  height: 300px;
+}
+.logo {
+  width: 70px;
+  height: 55px;
+  border-radius: 24%;
+}
+.login-page .card-body{
+  margin-left: 35%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #007bff;
+  margin-top: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.login-page {
+  margin-top: 86px;
+  padding-bottom: 6%;
+}
+.register {
+  margin-top: 86px;
+}
